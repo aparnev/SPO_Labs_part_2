@@ -1,0 +1,18 @@
+function ass(a,b){
+    a = a + b;
+    return a;
+}
+
+a = 15;
+b = 10;
+c = ass(1,2) + 1;
+if(a>10){
+    b = ((3 + a)*3)-(6-8);
+    d = 9;
+}
+else{d = a;}
+while (a > 11) {
+    a = a - 2;
+    b = b + ass(1,2);
+}
+

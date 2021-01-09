@@ -1,0 +1,11 @@
+function calculation(a,b){
+    d = a + 2*b + 9;
+    return d;
+}
+function fun(a,b){
+    d = 9+1;
+    f = a*b + d;
+    return f;
+}
+
+b = fun(1,2) + calculation(1,2);
